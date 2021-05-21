@@ -4,7 +4,7 @@ class School(models.Model):
     name = models.CharField(max_length=100)
     address = models.TextField(max_length=250)
     url = models.URLField(max_length=250, blank=True)
-    image = models.ImageField(upload_to='portfo/images/')
+    image = models.ImageField(upload_to='web/images/')
     
     class Meta:
         ordering = ['name']

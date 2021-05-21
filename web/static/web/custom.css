@@ -1,0 +1,26 @@
+.bg-custom {
+    background-color: white;
+}
+
+body {
+    font-family: 'Open Sans',sans-serif;
+    background-color: white;
+}
+
+.container-fluid .navbar-brand {
+    color: #000020;
+    font-size: 40px;
+    font-family: 'Pacifico',sans-serif;
+}
+
+.footer-container {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    background-color: #FBA100;
+  }
+
+  #menubar:hover {
+      color : #FBA100;
+  }
